@@ -52,19 +52,19 @@ function changeCurrency() {
 
     if (currencySelect.value == "usd") {
         currencyName.innerHTML = "Dólar Americano";
-        currencyImage.src = "./imagens/Dolar.png";
+        currencyImage.src = "./assets/Dolar.png";
 
     } else if (currencySelect.value == "eur") {
         currencyName.innerHTML = "Euro";
-        currencyImage.src = "./imagens/Euro.png";
+        currencyImage.src = "./assets/Euro.png";
 
     } else if (currencySelect.value == "gbp") {
         currencyName.innerHTML = "Libra Esterlina";
-        currencyImage.src = "./imagens/Libra Esterlina.png";
+        currencyImage.src = "./assets/Libra Esterlina.png";
 
     } else if (currencySelect.value == "btc") {
         currencyName.innerHTML = "Bitcoin";
-        currencyImage.src = "./imagens/Bitcoin.png";
+        currencyImage.src = "./assets/Bitcoin.png";
     }
 
     convertValues();
